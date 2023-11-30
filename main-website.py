@@ -83,7 +83,7 @@ if selected == "About Me":
         
         st.markdown("""
 
-        <p id="Bio1"><span style="font-weight: bold"><u>Introduction</u></span><br><br>Hello my name is kurt and I am a student studying Computer Engineering at SNSU(Surigao Del Norte State University).
+        <p id="Bio1"><span style="font-weight: bold"><u>Introduction</u></span><br><br>Hello my name is Kurt Ronnel B. Chua and I am a student studying for a degree in Bachelor of Science in Computer Engineering at SNSU(Surigao Del Norte State University).
                     You might be asking right now, why did you choose such a course? well, it is because I have a passion for computers, technology, and what not. But
                     what I really enjoy the most on that aspect is software development. I first got introduced to programming back in 2020 when my cousin would always talk about
                     his game development ventures, I would always find it interesting just how passionately he talked about his coding projects, so I became curious, and then
