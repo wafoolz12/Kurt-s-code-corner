@@ -1,0 +1,324 @@
+/*Website Properties*/
+
+#test {
+    color: rgb(255, 255, 255); 
+
+}
+
+[data-testid="stAppViewContainer"] {
+
+    background-color: #000000;
+    opacity: 1;
+    background-image:  repeating-linear-gradient(45deg, #300808 25%, transparent 25%, transparent 75%, #300808 75%, #300808), repeating-linear-gradient(45deg, #300808 25%, #000000 25%, #000000 75%, #300808 75%, #300808);
+    background-position: 0 0, 34px 34px;
+    background-size: 68px 68px;
+    
+}
+
+[data-testid="stHeader"] {
+    padding: 0px;
+    background-color: #6b1404
+}
+
+#kurt-s-code-corner {
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    font-size: 120px;
+    font-family: 'Libre Baskerville', serif;;
+    position: relative;
+    padding: 0px;   
+    margin-bottom: 1px;
+    margin-left: 45px;
+    margin-top: 0px
+}
+
+#a-blogsite-project {
+    
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    font-size: 28px;
+    font-family: 'Libre Baskerville', serif;;
+    position: relative;
+    padding: 0px;   
+    margin-bottom: 25px;
+    margin-left: 42px;
+    margin-top: 0px
+
+}
+
+/*Home Page*/
+
+#this-website-is-a-programming-project-developed-by-kurt-ronnel-b-chua {
+
+    font-size: 40px;
+    color: white;
+    text-align: center;
+    margin-left: 70px;
+    margin-top: 200px;
+}
+
+#KPhoto {
+
+    width: 500px;
+    margin-left: 100px;
+    margin-top: 40px;
+    position: relative;
+    padding: 0px;
+    
+}
+
+/*Content Page*/
+
+#my-socials {
+
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    position: relative;
+    padding: 0px;
+    margin-left: 15px;
+    margin-top: 7px
+
+}
+
+
+#FBPhoto {
+
+    
+    width: 200px;
+    margin-left: 200px;
+    margin-top: 40px;
+    position: relative;
+    padding: 0px;
+    
+}
+
+#GHPhoto {
+
+    
+    width: 200px;
+    margin-left: 180px;
+    margin-top: 40px;
+    position: relative;
+    padding: 0px;
+    
+}
+
+#SOPhoto {
+
+    
+    width: 230px;
+    margin-left: 160px;
+    margin-top: 40px;
+    position: relative;
+    padding: 0px;
+    
+}
+
+#contact-me {
+
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    position: relative;
+    padding: 0px;
+    margin-bottom: 10px;
+    margin-left: 15px;
+    margin-top: 7px
+
+}
+
+input[type=text], input[type=email], textarea {
+    width: 200px; 
+    font-size: 20px;
+    padding: 6px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 10px; 
+  }
+  
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 7px;
+}
+
+
+/*About me Page*/
+
+#things-about-me {
+
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    position: relative;
+    padding: 0px;
+    margin-bottom: 25px;
+    margin-left: 15px;
+    margin-top: 7px
+
+
+}
+
+#Bio1 {
+
+    color: white;
+    font-size: 30px;
+    margin-left: 100px;
+    font-family: 'Oswald', sans-serif;
+    margin-top: 65px;
+}
+
+#Bio2 {
+
+    color: white;
+    font-size: 30px;
+    margin-left: 200px;
+    font-family: 'Oswald', sans-serif;
+    margin-top: 120px;
+}
+
+#Bio3 {
+
+    color: white;
+    font-size: 30px;
+    margin-left: 200px;
+    font-family: 'Oswald', sans-serif;
+    margin-top: 65px;
+}
+
+#TypeMan {
+
+    width: 800px;
+    margin-left: 100px;
+    margin-top: 60px;
+
+}
+
+#Flappy {
+
+    width: 900px;
+    margin-left: 110px;
+    margin-top: 60px;
+
+}
+
+#College {
+
+    width: 800px;
+    height: 700px;
+    margin-left: 60px;
+    margin-top: 60px;
+
+}
+
+/*Mobile Support*/
+
+@media (max-width: 500px) {
+
+    /*Home Page*/
+    #kurt-s-code-corner {
+        font-size: 70px;
+        text-align: center;
+        margin-left: 10px;
+    }
+    #a-blogsite-project {
+        font-size: 20px;
+        margin-bottom: 30px;
+    }
+    #this-website-is-a-programming-project-developed-by-kurt-ronnel-b-chua {
+        margin-top: 30px;
+        margin-right: 10px;
+        margin-left: 25px;
+    }
+    #KPhoto {
+        width: 300px;
+        margin-left: 20px;
+        
+    }
+    /*Content Page*/
+    #my-socials {
+
+        color: white;
+        text-align: center;
+        font-size: 40px;
+        position: relative;
+        padding: 0px;
+        margin-left: 25px;
+        margin-top: 7px
+    }
+    #FBPhoto {
+        width: 230px;
+        margin-left: 60px;
+    }
+    #GHPhoto {
+        width: 230px;
+        margin-left: 60px;
+    }
+    #SOPhoto {
+        width: 230px;
+        margin-left: 60px;
+    }
+    #contact-me {
+        width: 230px;
+        margin-left: 60px;
+    }
+    form {
+        width: 230px;
+        margin-left: 60px;
+    }
+    /*About Me*/
+
+    #TypeMan {
+
+        width: 300px;
+        margin-left: 20px;
+    
+    }
+    
+    #Flappy {
+    
+        width: 300px;
+        margin-left: 20px;
+
+}
+    #College {
+
+        width: 300px;
+        height: 300px;
+        margin-left: 20px; 
+        margin-top: 20px;
+
+}
+    #Bio1 {
+
+    color: white;
+    font-size: 20px;
+    margin-left: 40px;
+    font-family: 'Oswald', sans-serif;
+    margin-top: 50px;
+}
+
+    #Bio2 {
+
+    color: white;
+    font-size: 20px;
+    margin-left: 40px;
+    font-family: 'Oswald', sans-serif;
+    margin-top: 50px;
+}
+    #Bio3 {
+
+    color: white;
+    font-size: 20px;
+    margin-left: 40px;
+    font-family: 'Oswald', sans-serif;
+    margin-top: 20px;
+}
+
+}
